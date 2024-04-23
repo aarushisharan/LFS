@@ -1,0 +1,68 @@
+/* login.css */
+
+/* Container styles */
+/* login.css */
+
+/* Container styles */
+.bg-gradient {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #DD5E89; /* Fallback color */
+  background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);
+  background: linear-gradient(to right, #F7BB97, #DD5E89);
+  height: 100vh;
+}
+
+
+/* Form container styles */
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 25%;
+}
+
+/* Form label styles */
+label {
+  color: #eeeeee; /* White */
+  font-weight: bold;
+}
+
+/* Input styles */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* Button styles */
+button {
+  background-color: #ff5722; /* Orange */
+  color: #ffffff; /* White */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #f4a261; /* Lighter Orange */
+}
+
+/* Link styles */
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #222831; /* Dark Gray */
+  text-decoration: none;
+}
+
+/* Link hover effect */
+.link:hover {
+  color: #393e46; /* Slightly lighter Dark Gray */
+}
